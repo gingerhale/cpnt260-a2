@@ -1,0 +1,40 @@
+body a{
+  text-decoration: none;}
+
+
+
+.card {
+background-color:darkblue;
+color: white;
+line-height: 1.6em;
+
+text-align: center;
+max-width: 40ch;
+
+margin: 10em auto;
+padding: 0.25em;
+border-radius: 1em;}
+
+
+article img{
+  object-fit: cover;
+  width: 80%;
+  height: 100%;
+  padding: 2em;
+  padding-bottom: 0em;
+  }
+
+h3{
+  color: #F78E69;
+  font-family:'Lexend', sans-serif;
+  font-size: 24px;
+}
+
+p{  
+  color: #F78E69;
+  font-family:'Open Sans', sans-serif;
+  font-size: 16px
+}
+
+article:hover{
+  box-shadow: 0 0 30px #F78E69;}
