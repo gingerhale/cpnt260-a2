@@ -1,40 +1,57 @@
+
+/*call to action link*/
 body a{
   text-decoration: none;}
 
 
-
+/*Whole card*/
 .card {
+  /*colour*/
 background-color:darkblue;
 color: white;
-line-height: 1.6em;
 
+  /*textface alterations*/
+line-height: 1.6em;
 text-align: center;
 max-width: 40ch;
 
+  /*box model*/
 margin: 10em auto;
 padding: 0.25em;
 border-radius: 1em;}
 
 
+/*image*/
 article img{
+  /*image dimensions*/
   object-fit: cover;
   width: 80%;
   height: 100%;
+
+  /*Box model*/
   padding: 2em;
-  padding-bottom: 0em;
-  }
+  padding-bottom: 0em;}
 
+/*Header*/
 h3{
+    /*colour*/
   color: #F78E69;
+
+    /*font alterations and size*/
   font-family:'Lexend', sans-serif;
-  font-size: 24px;
-}
+  font-size: 24px;}
 
+
+/*paragraph text*/
 p{  
+    /*colour*/
   color: #F78E69;
-  font-family:'Open Sans', sans-serif;
-  font-size: 16px
-}
 
+      /*font alterations and size*/
+  font-family:'Open Sans', sans-serif;
+  font-size: 16px;}
+
+  
+    /*Hover*/
 article:hover{
   box-shadow: 0 0 30px #F78E69;}
